@@ -3,7 +3,7 @@ import sqlite3
 import time
 
 # NER-10756 연결 포트 (ls /dev/ttyUSB* 확인)
-SERIAL_PORT = '/dev/ttyUSB0' 
+SERIAL_PORT = '/dev/ttyUSB1' 
 BAUD_RATE = 9600
 DB_FILE = 'sensors.db'
 

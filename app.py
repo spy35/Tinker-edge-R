@@ -260,7 +260,7 @@ def camera_thread_func():
         print(f"NPU Init Failed: {e}")
         return
 
-    cap = cv2.VideoCapture(10) # 카메라 인덱스 확인 필요
+    cap = cv2.VideoCapture(11) # 카메라 인덱스 확인 필요
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
